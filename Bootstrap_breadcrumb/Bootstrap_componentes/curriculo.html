@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CarsTop</title>
+
+  <!-- Bootstrap CSS ) -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <a class="navbar-brand" href="index.html">CarsTop</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" href="favoritos.html">Favoritos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="destaques.html">Destaques</a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="carros.html">Carros</a></li>
+
+          <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a></li>
+
+          <li class="nav-item active">
+          <a class="nav-link" href="curriculo.html">Currículo</a></li>
+
+   <li class="nav-item">
+          <a class="nav-link" href="integrantes.html">Integrantes</a></li>
+
+      </ul>
+    </div>
+  </nav>
+
+
+ <!--BREADCRUMB-->
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="favoritos.html">Favoritos</a></li>
+     <li class="breadcrumb-item"><a href="destaques.html">Destaques</a></li>
+      <li class="breadcrumb-item"><a href="carros.html">Carros</a></li>
+      <li class="breadcrumb-item"><a href="contato.html">Contato</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Currículo</li>
+  </ol>
+</nav>
+
+  <!-- HEATHER -->
+
+  <div class="container mt-4 mb-4">
+  <h1>Junte-se a nós!</h1>
+  <p>Venha fazer parte do time CarsTop!</p>
+
+  <h6>Vendedor de veículos experiente com mais de 5 anos no mercado automotivo. Habilidade em negociação, atendimento ao cliente e conhecimento técnico sobre diversos modelos de carros. Apaixonado por ajudar os clientes a encontrar o veículo perfeito para suas necessidades e estilo de vida.</h6>
+  <h3>Experiência Profissional</h3>
+  <ul>
+    <li>Vendedor de Veículos - AutoPrime (2019 - Presente)
+      <ul>
+        <li>Atendimento ao cliente, apresentação de veículos e negociação de vendas.</li>
+        <li>Alcance consistente das metas de vendas mensais.</li>
+      </ul>
+    </li>
+    <li>Consultor de Vendas - Carros & Cia (2016 - 2019)
+      <ul>
+        <li>Responsável por todo o processo de venda, desde a prospecção até o fechamento.</li>
+        <li>Desenvolvimento de estratégias para aumentar a satisfação do cliente.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <!--  FORMULÀRIO -->
+
+  <div class="form-group">
+    <label for="nome">Nome</label>
+    <input type="text" class="form-control" id="nome" placeholder="Nome completo">
+  </div>
+
+    <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Email">
+    </div>
+    
+<div class="form-group col-md-2">
+      <label for="tel">Telefone</label>
+      <input type="text" class="form-control" id="tel">
+    </div>
+
+  </div>
+  <div class="form-group">
+    <label for="endereço">Endereço</label>
+    <input type="text" class="form-control" id="endereço" placeholder="Rua dos Bobos, nº 0">
+  </div>
+  
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="cidade">Cidade</label>
+      <input type="text" class="form-control" id="cidade">
+      <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seus dados, com ninguém.</small>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="Estado">Estado</label>
+      <select id="Estado" class="form-control">
+        <option selected>Escolher...</option>
+        <option>SP</option>
+        <option>RJ</option>
+        <option>MG</option>
+        <option>ES</option>
+        <option>BA</option> 
+        <option>PE</option>
+        <option>CE</option>
+        <option>RS</option>
+        <option>SC</option>
+        <option>PR</option>
+        <option>DF</option>
+        <option>GO</option>
+        <option>MS</option>
+        <option>MT</option>
+        <option>TO</option>
+        <option>PA</option>
+        <option>AP</option>
+        <option>RR</option>
+        <option>AM</option>
+        <option>AC</option>
+        <option>RO</option>
+        <option>MA</option>
+        <option>PI</option>
+        <option>RN</option>
+        <option>PB</option>
+        <option>AL</option>
+        <option>SE</option>
+        <option>Outros</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="CEP">CEP</label>
+      <input type="text" class="form-control" id="CEP">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="resumo">Resumo profissional</label>
+    <textarea class="form-control" id="resumo" rows="4"></textarea>
+</form>
+  
+<!-- HEATHER2 -->
+  <h1>Formação acadêmica</h1>
+<div class="form-group">
+    <label for="curso">Curso</label>
+    <input type="text" class="form-control" id="curso" placeholder="Nome do curso">
+  </div>
+
+  <div class="form-group">
+    <label for="ano">Data de formação</label>
+    <input type="date" class="form-control" id="ano" placeholder="Rua dos Bobos, nº 0">
+  </div>
+
+  <div class="form-group">
+    <label for="instituição">Instituição</label>
+    <input type="text" class="form-control" id="instituição" placeholder="Nome da instituição">
+
+<div class="form-group col-md-6">
+      <label for="cidade">Cidade</label>
+      <input type="text" class="form-control" id="cidade">
+    </div>
+
+ <div class="form-group">
+    <label for="descrição">Breve descrição</label>
+    <textarea class="form-control" id="descrição" rows="4"></textarea>
+  </div>
+
+ <!--  Esperiências profissionais-->
+  <h1>Experiências profissionais</h1>
+
+<div class="form-group">
+    <label for="empresa">Empresa</label>
+    <input type="text" class="form-control" id="empresa" placeholder="Nome da empresa">
+  </div>
+
+    <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="cargo">Cargo</label>
+      <input type="email" class="form-control" id="cargo" placeholder="Cargo desempenhado">
+    </div>
+    
+<div class="form-group">
+    <label for="anoinicio">Data de início</label>
+    <input type="date" class="form-control" id="anoinicio">
+  </div>
+
+  <div class="form-group">
+    <label for="anofim">Data fim</label>
+    <input type="date" class="form-control" id="anofim">
+  </div>
+
+
+  </div>
+  <div class="form-group">
+    <label for="endereço">Endereço</label>
+    <input type="text" class="form-control" id="endereço" placeholder="Rua dos Bobos, nº 0">
+  </div>
+  
+  <div class="form-group">
+    <label for="att">Atividades desenvolvidas</label>
+    <textarea class="form-control" id="att" rows="3"></textarea>
+  </div>
+
+   <div class="form-group">
+    <label for="ht">Habilidades técnicas</label>
+    <textarea class="form-control" id="ht" rows="3"></textarea>
+  </div>
+
+<!--  OBJETIVO -->
+  <h1>Objetivo</h1>
+  <h4>Com o que quer trabalhar conosco?</h4>
+  <h4>Como deseja trabalhar conosco?</h4>
+  <div class="form-group">
+    <label for="ht">Objetivo</label>
+    <textarea class="form-control" id="ht" rows="8"></textarea>
+  </div>
+
+<div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Concordo em enviar meus dados para análise.
+      </label>
+    </div>
+
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Aceito receber novidades por email.
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+
+ 
+ <!--  FOOTER -->
+   <footer>
+  <section id="footer" style="background: #222; color: #fff; padding: 40px 0;">
+    <div class="container">
+
+      <div class="row text-center text-xs-center text-sm-left text-md-left">
+        <div class="col-xs-12 col-sm-4 col-md-4 mb-4">
+          <h5>Quick links</h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href="index.html"><i class="fa fa-angle-double-right"></i> Home</a></li>
+            <li><a href="favoritos.html"><i class="fa fa-angle-double-right"></i> Favoritos</a></li>
+            <li><a href="destaques.html"><i class="fa fa-angle-double-right"></i> Destaques</a></li>
+            <li><a href="curriculo.html"><i class="fa fa-angle-double-right"></i> Currículo</a></li>
+            <li><a href="contato.html"><i class="fa fa-angle-double-right"></i> Contato</a></li>
+            <li><a href="carros.html"><i class="fa fa-angle-double-right"></i> Carros</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 mb-4">
+          <h5>Onde estamos</h5>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.778753974677!2d-47.292750025933906!3d-23.287487551585215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf5ab2d35d2b0d%3A0x90131a5f0c2272b3!2sEscola%20T%C3%A9cnica%20Estadual%20Martinho%20di%20Ciero%20-%20Itu!5e0!3m2!1spt-BR!2sbr!4v1756128894307!5m2!1spt-BR!2sbr"
+            width="100%" height="200" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 mb-4">
+          <h5>Assista</h5>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item"
+              src="https://www.youtube.com/embed/xzEOK7uFceE?si=GL1xpJB2r6sQRPLc"
+              title="YouTube video player" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 mt-4">
+          <ul class="list-unstyled list-inline social text-center">
+            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <hr style="border-color: #444;">
+
+      <div class="row">
+        <div class="col-12 text-center">
+          <p><strong>CarsTop</strong> – Compromisso com a qualidade e confiança em cada serviço.</p>
+          <p class="h6">© 2025 CarsTop | Desenvolvido com apoio da <a class="text-success ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</footer>
+
+
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
